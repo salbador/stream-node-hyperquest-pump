@@ -4,7 +4,7 @@ var through = require('through2')
 var hyperquest = require('hyperquest')
 
 pump(
-  hyperquest('http://localhost:9090'),
+  hyperquest('http://localhost:3000'),
   ndjson.parse(),
   through.obj(write),
   process.stdout
