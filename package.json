@@ -1,0 +1,19 @@
+{
+  "name": "stream-node-hyperquest-pump",
+  "private": true,
+  "version": "0.0.0",
+  "description": "Process streaming JSON with Node.js using Pump and Hyperquest ",
+  "scripts": {
+    "start": "yarn node src/safe-streams-with-pump.js",
+    "test": "yarn jest --watchAll"
+  },
+  "dependencies": {
+    "hyperquest": "^2.1.3",
+    "ndjson": "^1.5.0",
+    "pump": "^3.0.0",
+    "through2": "^3.0.1"
+  },
+  "devDependencies": {
+    "jest": "^25.1.0"
+  }
+}
