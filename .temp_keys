@@ -1,0 +1,4 @@
+
+export SSH_KEY="salba"
+export GITUSER="salbador"
+export JOURNAL_PUT_COMMIT_METHOD="commit"
